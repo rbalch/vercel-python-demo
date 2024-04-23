@@ -18,7 +18,7 @@ services:
     #   STREAMLIT_SERVER_PORT: 8000
     #   # GOOGLE_CLOUD_PROJECT: 
     #   # GOOGLE_APPLICATION_CREDENTIALS: '/.config/gcloud/.json'
-    working_dir: /code/my-app/app
+    working_dir: /code/my-app/api
     entrypoint:
       - uvicorn
       - index:app
