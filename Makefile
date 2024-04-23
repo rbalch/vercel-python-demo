@@ -10,4 +10,4 @@ command:
 	docker exec -it ${IMAGE_NAME} /bin/bash
 
 command-raw:
-	docker compose run ${IMAGE_NAME} bash
+	docker compose run --entrypoint "bash" ${IMAGE_NAME} 
